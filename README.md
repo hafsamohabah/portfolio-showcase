@@ -1,16 +1,44 @@
-# React + Vite
+# Studio Portfolio Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive React single-page portfolio for a creative agency. The website displays a collection of projects and allows users to search, filter, and add new projects.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive portfolio landing page
+- Project cards displayed dynamically
+- Search projects by title, category, year, or description
+- Filter projects by category
+- Add new projects using a form
+- Form validation for required fields
+- New projects appear immediately without refreshing the page
+- Responsive mobile navigation
+- Automated tests using Vitest and React Testing Library
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
+- Vitest
+- React Testing Library
+- Lucide React
 
-## Expanding the Oxlint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+src/
+├── components/
+│   ├── AddProjectForm.jsx
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── ProjectCard.jsx
+│   ├── ProjectGrid.jsx
+│   └── SearchBar.jsx
+├── test/
+│   └── setup.js
+├── App.jsx
+├── App.test.jsx
+├── main.jsx
+└── styles.css
