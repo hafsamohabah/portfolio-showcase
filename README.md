@@ -1,16 +1,16 @@
 # Studio Portfolio Showcase
 
-A responsive React portfolio website for displaying creative projects in a clean and modern layout. The application allows users to browse projects, search and filter the project collection, and add new projects dynamically.
+## Project Description
+
+Studio Portfolio Showcase is a responsive React single-page application designed for a creative agency to display its portfolio of projects.
+
+The application allows users to browse creative projects, search and filter the project collection, and add new projects dynamically through a form.
+
+The project was built with a focus on reusable React components, state management, props, event handling, responsive design, and maintainable code structure.
 
 ## Author
 
 **Hafsa Mohammed**
-
-## Project Description
-
-This project was developed as a React single-page application for a creative agency. The goal is to create a modern, responsive, and maintainable portfolio website where projects can be displayed and managed interactively.
-
-The application demonstrates React component-based development, state management, props, event handling, form handling, dynamic rendering, and responsive design.
 
 ## Features
 
@@ -30,12 +30,14 @@ The application demonstrates React component-based development, state management
 
 - React
 - Vite
-- JavaScript (JSX)
+- JavaScript
+- JSX
 - CSS
 - Vitest
 - React Testing Library
 - Lucide React
-- Git and GitHub
+- Git
+- GitHub
 
 ## Project Structure
 
@@ -59,6 +61,7 @@ portfolio-showcase/
 │   ├── main.jsx
 │   └── styles.css
 ├── .gitignore
+├── LICENSE
 ├── package.json
 ├── README.md
 └── vite.config.js
