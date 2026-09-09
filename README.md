@@ -65,3 +65,37 @@ portfolio-showcase/
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
+
+## Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/hafsamohabah/portfolio-showcase.git
+cd portfolio-showcase
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Vite will provide a local URL where the application can be opened in a web browser.
+
+### 4. Run the tests
+
+```bash
+npm test
+```
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
